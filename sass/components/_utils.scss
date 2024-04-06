@@ -1,0 +1,63 @@
+.utils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.utils__item {
+  margin-right: 74px;
+  max-width: 307px;
+}
+
+.utils__thumb {
+  margin-right: 60px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 114px;
+  height: 64px;
+
+  background-image: url("../../img/Card\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.utils__item:nth-child(2) .utils__thumb {
+  width: 91px;
+  height: 72px;
+
+  background-image: url("../../img/Calculator\ \(1\).png");
+}
+
+.utils__item:nth-child(3) .utils__thumb {
+  margin-right: auto;
+
+  width: 118px;
+  height: 63px;
+
+  background-image: url("../../img/Camera\ \(1\).png");
+}
+
+.utils__titel {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: getTitelColor("primery");
+}
+
+.utils__text {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: getTextColor("primery");
+}

@@ -1,0 +1,59 @@
+body {
+  font-family: "Mulish", sans-serif;
+  color: getTextColor("primery");
+
+  background-color: getBgcolor("primery");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  color: getTitelColor("primery");
+}
+
+.container {
+  width: 1104px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.is-hiden {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.current {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+
+    display: block;
+    width: 100%;
+    height: 2px;
+
+    background-color: getAcentColor("primery");
+  }
+}
+
+.learn__more {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.03em;
+  color: getAcentColor("primery");
+
+  text-decoration: none;
+
+  transition: color 250ms linear;
+
+  &:hover {
+    color: getAcentColor("secondary");
+  }
+}

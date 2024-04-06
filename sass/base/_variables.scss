@@ -1,0 +1,37 @@
+$text-colors: (
+  "primery": #696871,
+  "secondary": #ffffff,
+);
+
+$titel-colors: (
+  "primery": #19191b,
+  "secondary": #1d293f,
+);
+
+$bg-colors: (
+  "primery": #ffffff,
+  "secondary": #5454d4,
+  "third": #ff7143,
+);
+
+$acent-colors: (
+  "primery": #5454d4,
+  "secondary": #ff7143,
+  "third": #41170a,
+  "border": #e7e7e7,
+);
+
+@function getTextColor($key) {
+  @return map-get($text-colors, $key);
+}
+
+@function getTitelColor($key) {
+  @return map-get($titel-colors, $key);
+}
+@function getBgColor($key) {
+  @return map-get($bg-colors, $key);
+}
+
+@function getAcentColor($key) {
+  @return map-get($acent-colors, $key);
+}

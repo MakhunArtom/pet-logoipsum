@@ -1,0 +1,18 @@
+.matrics__wraper {
+  display: flex;
+  align-items: center;
+
+  flex-direction: row-reverse;
+}
+
+.matrics__thumb {
+  width: 348px;
+  height: 473px;
+  margin-left: 158px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("../../img/metrics\ \(1\).png");
+}

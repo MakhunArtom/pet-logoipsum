@@ -1,0 +1,48 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.her__wraper {
+  width: 459px;
+}
+
+.hero__titel {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -2.5px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.62px;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+}
+
+.hero__thumb {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  border: 1px solid getAcentColor("border");
+
+  background-image: url("../../svg/hero/arrow-down\ .svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

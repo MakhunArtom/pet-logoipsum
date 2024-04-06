@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin: 0 159px 0 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 49px;
+}
+
+.nav__link {
+  position: relative;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+  color: getTextColor("primery");
+
+  text-decoration: none;
+
+  transition: color 250ms linear;
+
+  &:hover {
+    color: getTitelColor("primery");
+  }
+}

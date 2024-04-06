@@ -1,0 +1,16 @@
+.subscription__wraper {
+  display: flex;
+  align-items: center;
+}
+
+.subscription__thumb {
+  width: 348px;
+  height: 473px;
+  margin-right: 165px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url("../../img/subscript\ \(1\).png");
+}

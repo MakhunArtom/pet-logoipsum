@@ -14,43 +14,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="header">
 
-        <nav class="nav container">
-            <a class="logo" href="">
-                <img class="logo-icon" src="./svg/logo/logo.svg" alt="logo">
-                <span class="logo-text">logoipsum</span>
-            </a>
+        <div class="container">
+            <nav class="nav">
+                <a class="logo" href="#">
+                    <svg class="logo__icon" width="40" height="40">
+                        <use href="./svg/symbol-defs.svg#icon-logo"></use>
+                    </svg>
 
-            <ul class="nav-list">
-                <li class="list-item">
-                    <a class="list-link current" href="/">
-                        Home
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="list-link" href="">
-                        Features
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="list-link" href="">
-                        Pricing
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="list-link" href="">
-                        Blog
-                    </a>
-                </li>
-            </ul>
+                    <span class="logo__text">logoipsum</span>
+                </a>
 
-            <a href="" class="buttom">Get Started</a>
-        </nav>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link current" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="#start" class="buttom buttom--orang ">Get Started</a>
+            </nav>
+        </div>
 
     </header>
 
@@ -59,107 +64,103 @@
 
             <div class="container">
 
-                <div class="wraper">
+                <div class="her__wraper">
 
-                    <h1 class="hero-titel">
+                    <h1 class="hero__titel">
                         Grow your
                         subscription
                         business
                     </h1>
 
-                    <p class="hero-text">
+                    <p class="hero__text">
                         Outcome-centered products that reduce churn, optimize pricing, and grow your subscription
                         business end-to-end.
                     </p>
 
-                    <div class="butoom-wraper">
-                        <a href="" class="buttom">Get Started</a>
-                        <div class="thumb">
-                            <img src="./svg/hero/arrow-down .svg" alt="" class="hero-icon">
-                        </div>
+                    <div class="hero__inner">
+                        <a href="" class="buttom buttom--blue">Get Started</a>
+                        <div class="hero__thumb"></div>
                     </div>
 
                 </div>
 
-                <img src="./img/Hero 3D.png" alt="" class="hero-img" width="610">
+                <img src="./img/Hero 3D.png" alt="" class="hero__img" width="610">
             </div>
 
         </section>
 
 
-        <section class="section ">
+        <section class="section">
             <div class="container">
-                <h2 class="section-titel is-hiden">Logoipsum</h2>
+                <h2 class="section__titel is-hiden">Logoipsum</h2>
 
-                <ul class="list-icon">
-                    <li class="list-item">
-                        <svg class="icon" width="28" height="28">
-                            <use href="./svg/logoipsum/symbol-defs.svg#icon-shape"></use>
+                <ul class="logo__list">
+                    <li class="logo__item">
+                        <svg class="logo__icon" width="118" height="27">
+                            <use href="./svg/symbol-defs.svg#icon-Group"></use>
                         </svg>
-                        <p class="icon-text">logoipsum</p>
-                    </li>
-                    <li class="list-item">
-                        <svg class="icon" width="19" height="30">
-                            <use href="./svg/logoipsum/symbol-defs.svg#icon-shape4"></use>
-                        </svg>
-                        <p class="icon-text">LOGOIPSUM</p>
-                    </li>
-                    <li class="list-item">
 
-                        <svg class="icon" width="69" height="22">
-                            <use href="./svg/logoipsum/symbol-defs.svg#icon-shape5"></use>
-                        </svg>
-                        <p class="icon-text">logoipsum</p>
                     </li>
-                    <li class="list-item">
+                    <li class="logo__item">
+                        <svg class="logo__icon" width="123" height="28">
+                            <use href="./svg/symbol-defs.svg#icon-Group-1"></use>
+                        </svg>
 
-                        <svg class="icon" width="28" height="24">
-                            <use href="./svg/logoipsum/symbol-defs.svg#icon-shape3"></use>
-                        </svg>
-                        <p class="icon-text">log@ipsum</p>
                     </li>
-                    <li class="list-item">
-                        <svg class="icon" width="31" height="30">
-                            <use href="./svg/logoipsum/symbol-defs.svg#icon-shape2"></use>
+                    <li class="logo__item">
+
+                        <svg class="logo__icon" width="100" height="47">
+                            <use href="./svg/symbol-defs.svg#icon-Group-2"></use>
                         </svg>
-                        <p class="icon-text">logoipsum</p>
+
+                    </li>
+                    <li class="logo__item">
+
+                        <svg class="logo__icon" width="117" height="23">
+                            <use href="./svg/symbol-defs.svg#icon-Group-3"></use>
+                        </svg>
+
+                    </li>
+                    <li class="logo__item">
+                        <svg class="logo__icon" width="126" height="29">
+                            <use href="./svg/symbol-defs.svg#icon-Group-4"></use>
+                        </svg>
                     </li>
                 </ul>
             </div>
-
         </section>
 
         <section class="section subscription">
             <div class="container">
-                <div class="section-wraper">
-                    <dvi class="section-thumb"></dvi>
+                <div class="subscription__wraper">
+                    <dvi class="subscription__thumb"></dvi>
 
-                    <div class="thumb">
-                        <h2 class="section-titel">Subscription index</h2>
+                    <div>
+                        <h2 class="section__titel">Subscription index</h2>
 
-                        <p class="section-text">A daily dataset to keep you up to date on subscription market trends and
+                        <p class="section__text">A daily dataset to keep you up to date on subscription market trends
+                            and
                             what's happening in your vertical.</p>
 
-                        <a href="" class="learn-more">Learn more</a>
+                        <a href="" class="learn__more">Learn more</a>
                     </div>
                 </div>
             </div>
-
-
         </section>
 
         <section class="section matrics">
             <div class="container">
-                <div class="section-wraper">
-                    <dvi class="section-thumb"></dvi>
+                <div class="matrics__wraper">
+                    <dvi class="matrics__thumb"></dvi>
 
-                    <div class="thumb">
-                        <h2 class="section-titel">In-depth metrics</h2>
+                    <div>
+                        <h2 class="section__titel">In-depth metrics</h2>
 
-                        <p class="section-text">Accurate, real-time reporting at your fingertips. Getting data has never
+                        <p class="section__text">Accurate, real-time reporting at your fingertips. Getting data has
+                            never
                             been easier.</p>
 
-                        <a href="" class="learn-more">Learn more</a>
+                        <a href="" class="learn__more">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -167,29 +168,29 @@
 
         </section>
 
-        <section class="section utils">
+        <section class="section">
             <div class="container">
                 <h2 class="section-titel is-hiden">Utils</h2>
 
-                <ul class="utils-list">
-                    <li class="utils-item">
-                        <div class="utils-thumb">
+                <ul class="utils">
+                    <li class="utils__item">
+                        <div class="utils__thumb">
                         </div>
-                        <h2 class="utils-titel">Benchmarks</h2>
-                        <p class="utils-text">See how you stack up against comparable companies in similar stages.</p>
+                        <h2 class="utils__titel">Benchmarks</h2>
+                        <p class="utils__text">See how you stack up against comparable companies in similar stages.</p>
                     </li>
-                    <li class="utils-item">
-                        <div class="utils-thumb">
+                    <li class="utils__item">
+                        <div class="utils__thumb">
                         </div>
-                        <h2 class="utils-titel">Pricing Audit</h2>
-                        <p class="utils-text">Benchmark the health of your monetization and pricing strategy.</p>
+                        <h2 class="utils__titel">Pricing Audit</h2>
+                        <p class="utils__text">Benchmark the health of your monetization and pricing strategy.</p>
 
                     </li>
-                    <li class="utils-item">
-                        <div class="utils-thumb">
+                    <li class="utils__item">
+                        <div class="utils__thumb">
                         </div>
-                        <h2 class="utils-titel">Retention Audit</h2>
-                        <p class="utils-text">Audit where revenue leakage exists and where you can increase retention.
+                        <h2 class="utils__titel">Retention Audit</h2>
+                        <p class="utils__text">Audit where revenue leakage exists and where you can increase retention.
                         </p>
 
                     </li>
@@ -198,90 +199,90 @@
             </div>
         </section>
 
-        <section class="section product">
+        <section id="start" class="section product">
             <div class="container">
-                <div class="product-wrap">
-                    <h2 class="section-titel">Get the right plan for future product.</h2>
+                <div class="product__wrap">
+                    <h2 class="product__titel">Get the right plan for future product.</h2>
 
-                    <div class="btn-wrap">
-                        <a href="" class="buttom">Yearly</a>
-                        <a href="" class="buttom">Monthly</a>
+                    <div class="product__iner">
+                        <a href="" class="product__buttom">Yearly</a>
+                        <a href="" class="product__buttom">Monthly</a>
                     </div>
                 </div>
 
-                <ul class="product-list">
-                    <li class="product-card">
-                        <h3 class="card-titel">Starter</h3>
-                        <p class="card-price">Free</p>
+                <ul class="cards">
+                    <li class="cards__item">
+                        <h3 class="cards__titel">Starter</h3>
+                        <p class="cards__price">Free</p>
 
-                        <ul class="card-dignitys">
-                            <li class="dignity-item">
-                                <p class="dignity">
+                        <ul class="cards-dignitys">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     1 Website
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     5 GB Hosting
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     Limited Support
                                 </p>
                             </li>
                         </ul>
 
-                        <a href="" class="product-butoom">Get Started</a>
+                        <a href="" class="cards__butoom">Get Started</a>
                     </li>
-                    <li class="product-card">
-                        <h3 class="card-titel">Premium</h3>
-                        <p class="card-price">$29<span class="price-wrap">/month</span></p>
+                    <li class="cards__item">
+                        <h3 class="cards__titel">Premium</h3>
+                        <p class="cards__price">$29<span class="wrap">/month</span></p>
 
-                        <ul class="card-dignitys">
-                            <li class="dignity-item">
-                                <p class="dignity">
+                        <ul class="cards-dignitys">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     10 Website
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     15 GB Hosting
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     Premium Support
                                 </p>
                             </li>
                         </ul>
 
-                        <a href="" class="product-butoom">Get Started</a>
+                        <a href="" class="cards__butoom">Get Started</a>
 
                     </li>
-                    <li class="product-card">
-                        <h3 class="card-titel">Enterprise</h3>
-                        <p class="card-price">$49<span class="price-wrap">/month</span></p>
+                    <li class="cards__item">
+                        <h3 class="cards__titel">Enterprise</h3>
+                        <p class="cards__price">$49<span class="wrap">/month</span></p>
 
-                        <ul class="card-dignitys">
-                            <li class="dignity-item">
-                                <p class="dignity">
+                        <ul class="cards-dignitys">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     Unlimited Website
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     50 GB Hosting
                                 </p>
                             </li>
-                            <li class="dignity-item">
-                                <p class="dignity">
+                            <li class="dignitys__item">
+                                <p class="dignitys__text">
                                     Premium Support
                                 </p>
                             </li>
                         </ul>
 
-                        <a href="" class="product-butoom">Get Started</a>
+                        <a href="" class="cards__butoom">Get Started</a>
                     </li>
                 </ul>
             </div>
